@@ -4,6 +4,6 @@
 
 ## To see the demo :
 - Clone the repo and run ```npm start```
-- or go to ```https://mitch-sortingviz.netlify.app/```
+- or go to [https://mitch-sortingviz.netlify.app/]
 
-## Note that insertion sort has not been implemented due to hectic school semester
+Note that insertion sort has not been implemented due to hectic school semester
