@@ -1,11 +1,18 @@
 .array-container {
   position: absolute;
-  left: 100px;
+  top:10%;
+  left:15%;
+  right:3%;
+  height: 70%;
+  padding-top:10%;
+  /* background-color: blue; */
+
+ 
+  /* background-color: red; */
   /* top: 100px; */
 }
 
 .array-bar {
-  width: 2px;
   display: inline-block;
-  margin: 0 1px;
+  /* margin: 0 1px; */
 }

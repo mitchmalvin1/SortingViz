@@ -1,0 +1,71 @@
+.toolbar-container {
+    background: url("../../assets/tabBar-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    position: fixed;
+    top:0;
+    width:100%;
+    height:10%;
+    z-index:2;
+    display:flex;
+    cursor: pointer;
+   
+}
+
+.toolbar-title {
+    font-size: 20px;
+    margin:0;
+    color :white
+}
+
+@media screen and (max-width: 1000px) {
+    .toolbar-title {
+        font-size: 15px;
+    }
+}
+
+.p-text {
+    /* background-color: red; */
+    margin: 0;
+    color:white;
+}
+
+
+.generate-array-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    /* background-color: red; */
+    cursor: pointer
+}
+
+.change-array-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    /* background-color: green; */
+}
+
+.change-speed-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    /* background-color: yellow; */
+}
+
+.algo-selection-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:3;
+    /* background-color: blue; */
+    padding:10px;
+    padding-right:30px;
+    cursor: pointer
+}
